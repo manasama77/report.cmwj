@@ -1,0 +1,9 @@
+satuan untuk chart
+
+FIQ = m³/h
+
+CIA
+satuan uS/cm
+
+CIA-A == CIA-DI uS/cm
+CIA-B == CIA-RO uS/cm
