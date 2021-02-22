@@ -454,14 +454,20 @@ class ExportController extends CI_Controller
             $to_human = $to_obj->format('d-M-Y  H:i');
 
             $mpdf = new \Mpdf\Mpdf([
-                'margin_header'  => 5,
-                'margin_top'     => 20,
+                'margin_header'  => 10,
+                'margin_top'     => 33,
                 'autoPageBreak ' => true
             ]);
             // $mpdf->SetDisplayMode('fullpage');
             $mpdf->SetTitle('Chart History ' . $from_human . "-" . $to_human);
 
-            $mpdf->SetHTMLHeader('<img src="' . base_url('assets/img/header_chart_history.png') . '" style="100%;">');
+            if ($from_human == $to_human) {
+                $dt_title = '<p style="font-size: 10px;">Alarm History ' . $from_human . '</p>';
+            } else {
+                $dt_title = '<p style="font-size: 10px;">Alarm History ' . $from_human . ' - ' . $to_human . '</p>';
+            }
+
+            $mpdf->SetHTMLHeader('<img src="' . base_url('assets/img/header_chart_history.png') . '" style="100%;"><br>' . $dt_title);
 
             $arr['id_area']    = $id_area;
             $arr['from_human'] = $from_human;

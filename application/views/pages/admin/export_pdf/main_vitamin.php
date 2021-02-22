@@ -376,6 +376,7 @@
         optionsA = {
             data: [{
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 indexLabelFontSize: 20,
@@ -396,6 +397,7 @@
                 dataPoints: dataPoints2A,
             }, {
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 xValueType: "dateTime",
@@ -538,6 +540,7 @@
         optionsB = {
             data: [{
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 indexLabelFontSize: 20,
@@ -558,6 +561,7 @@
                 dataPoints: dataPoints2B,
             }, {
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 xValueType: "dateTime",
@@ -772,6 +776,7 @@
         optionsC = {
             data: [{
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 indexLabelFontSize: 20,
@@ -792,6 +797,7 @@
                 dataPoints: dataPoints2C,
             }, {
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 xValueType: "dateTime",
@@ -934,6 +940,7 @@
         optionsD = {
             data: [{
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 indexLabelFontSize: 20,
@@ -954,6 +961,7 @@
                 dataPoints: dataPoints2D,
             }, {
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 xValueType: "dateTime",
@@ -1244,6 +1252,7 @@
         optionsF = {
             data: [{
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 indexLabelFontSize: 20,
@@ -1264,6 +1273,7 @@
                 dataPoints: dataPoints2F,
             }, {
                 type: "spline",
+                lineDashType: "dash",
                 color: "blue",
                 showInLegend: true,
                 xValueType: "dateTime",

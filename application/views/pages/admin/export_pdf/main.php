@@ -109,33 +109,41 @@
                         <div id="canvas_all">
                             <h5 id="chart_title"></h5>
                             <div id="group_wwt1" style="display: none;" tabindex="-1">
+                                <h4>WWT-01</h4>
                                 <div id="chartContainerA" style="height: 300px; width: 100%;"></div>
                                 <div class="white_block">&nbsp;</div>
                                 <br>
+                                <h4>WWT-01</h4>
                                 <div id="chartContainerB" style="height: 300px; width: 100%;"></div>
                                 <div class="white_block2">&nbsp;</div>
                                 <br>
                             </div>
                             <div id="group_wwt2" style="display: none;">
+                                <h4>WWT-02</h4>
                                 <div id="chartContainerC" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block3">&nbsp;</div>
                                 <br>
+                                <h4>WWT-02</h4>
                                 <div id="chartContainerD" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block4">&nbsp;</div>
                                 <br>
+                                <h4>WWT-02</h4>
                                 <div id="chartContainerE" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block5">&nbsp;</div>
                                 <br>
                             </div>
                             <div id="group_mixbed" style="display: none;">
+                                <h4>MIXBED</h4>
                                 <div id="chartContainerF" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block6">&nbsp;</div>
                                 <br>
                             </div>
                             <div id="group_diro" style="display: none;">
+                                <h4>DI-RO</h4>
                                 <div id="chartContainerG" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block7">&nbsp;</div>
                                 <br>
+                                <h4>DI-RO</h4>
                                 <div id="chartContainerH" style="height: 300px; width: 100%;" style="display: none;"></div>
                                 <div class="white_block8">&nbsp;</div>
                                 <br>
