@@ -92,11 +92,11 @@ class ExportController extends CI_Controller
             $code = 200;
             if ($exec1->num_rows() > 0) {
                 foreach ($exec1->result() as $key) {
-                    $value_data = $key->WT1_VALUE_pH_102;
-                    $hh_data    = $key->WT1_VALUE_pH_102_HH_LEVEL;
-                    $high_data  = $key->WT1_VALUE_pH_102_H_LEVEL;
-                    $low_data   = $key->WT1_VALUE_pH_102_L_LEVEL;
-                    $ll_data    = $key->WT1_VALUE_pH_102_LL_LEVEL;
+                    $value_data = $key->WT1_VALUE_pH_102_REAL;
+                    $hh_data    = $key->WT1_VALUE_pH_102_HH_LEVEL_REAL;
+                    $high_data  = $key->WT1_VALUE_pH_102_H_LEVEL_REAL;
+                    $low_data   = $key->WT1_VALUE_pH_102_L_LEVEL_REAL;
+                    $ll_data    = $key->WT1_VALUE_pH_102_LL_LEVEL_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -120,11 +120,11 @@ class ExportController extends CI_Controller
 
             if ($exec2->num_rows() > 0) {
                 foreach ($exec2->result() as $key) {
-                    $value_data = $key->WT1_VALUE_pH_107;
-                    $hh_data    = $key->WT1_VALUE_pH_107_HH_LEVEL;
-                    $high_data  = $key->WT1_VALUE_pH_107_H_LEVEL;
-                    $low_data   = $key->WT1_VALUE_pH_107_L_LEVEL;
-                    $ll_data    = $key->WT1_VALUE_pH_107_LL_LEVEL;
+                    $value_data = $key->WT1_VALUE_pH_107_REAL;
+                    $hh_data    = $key->WT1_VALUE_pH_107_HH_LEVEL_REAL;
+                    $high_data  = $key->WT1_VALUE_pH_107_H_LEVEL_REAL;
+                    $low_data   = $key->WT1_VALUE_pH_107_L_LEVEL_REAL;
+                    $ll_data    = $key->WT1_VALUE_pH_107_LL_LEVEL_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -180,10 +180,10 @@ class ExportController extends CI_Controller
             if ($exec1->num_rows() > 0) {
                 foreach ($exec1->result() as $key) {
                     $value_data = $key->WT2_VALUE_pH_302;
-                    $hh_data    = $key->WT2_VALUE_pH_302_HH_LEVEL;
-                    $high_data  = $key->WT2_VALUE_pH_302_H_LEVEL;
-                    $low_data   = $key->WT2_VALUE_pH_302_L_LEVEL;
-                    $ll_data    = $key->WT2_VALUE_pH_302_LL_LEVEL;
+                    $hh_data    = $key->WT2_VALUE_pH_302_HH_LEVEL_REAL;
+                    $high_data  = $key->WT2_VALUE_pH_302_H_LEVEL_REAL;
+                    $low_data   = $key->WT2_VALUE_pH_302_L_LEVEL_REAL;
+                    $ll_data    = $key->WT2_VALUE_pH_302_LL_LEVEL_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -208,10 +208,10 @@ class ExportController extends CI_Controller
             if ($exec2->num_rows() > 0) {
                 foreach ($exec2->result() as $key) {
                     $value_data = $key->WT2_VALUE_pH_307;
-                    $hh_data    = $key->WT2_VALUE_pH_307_HH_LEVEL;
-                    $high_data  = $key->WT2_VALUE_pH_307_H_LEVEL;
-                    $low_data   = $key->WT2_VALUE_pH_307_L_LEVEL;
-                    $ll_data    = $key->WT2_VALUE_pH_307_LL_LEVEL;
+                    $hh_data    = $key->WT2_VALUE_pH_307_HH_LEVEL_REAL;
+                    $high_data  = $key->WT2_VALUE_pH_307_H_LEVEL_REAL;
+                    $low_data   = $key->WT2_VALUE_pH_307_L_LEVEL_REAL;
+                    $ll_data    = $key->WT2_VALUE_pH_307_LL_LEVEL_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -236,7 +236,7 @@ class ExportController extends CI_Controller
 
             if ($exec3->num_rows() > 0) {
                 foreach ($exec3->result() as $key) {
-                    $value_data = $key->WT2_VALUE_FIQ_101A;
+                    $value_data = $key->WT2_VALUE_FIQ_101A_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -284,11 +284,11 @@ class ExportController extends CI_Controller
             $code = 200;
             if ($exec1->num_rows() > 0) {
                 foreach ($exec1->result() as $key) {
-                    $value_data = $key->MB_VALUE_CIA1_CONDUCTIVITY;
-                    $hh_data    = $key->MB_VALUE_CIA1_HH_LEVEL;
-                    $high_data  = $key->MB_VALUE_CIA1_H_LEVEL;
-                    $low_data   = $key->MB_VALUE_CIA1_L_LEVEL;
-                    $ll_data    = $key->MB_VALUE_CIA1_LL_LEVEL;
+                    $value_data = $key->MB_VALUE_CIA1_CONDUCTIVITY_REAL;
+                    $hh_data    = $key->MB_VALUE_CIA1_HH_LEVEL_REAL;
+                    $high_data  = $key->MB_VALUE_CIA1_H_LEVEL_REAL;
+                    $low_data   = $key->MB_VALUE_CIA1_L_LEVEL_REAL;
+                    $ll_data    = $key->MB_VALUE_CIA1_LL_LEVEL_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -339,7 +339,7 @@ class ExportController extends CI_Controller
             $code = 200;
             if ($exec1->num_rows() > 0) {
                 foreach ($exec1->result() as $key) {
-                    $value_data = $key->DR_VALUE_CIA_A;
+                    $value_data = $key->DR_VALUE_CIA_A_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
@@ -359,7 +359,7 @@ class ExportController extends CI_Controller
 
             if ($exec2->num_rows() > 0) {
                 foreach ($exec2->result() as $key) {
-                    $value_data = $key->DR_VALUE_CIA_B;
+                    $value_data = $key->DR_VALUE_CIA_B_REAL;
                     $created_at = $key->Time_Stamp;
                     $tgl_obj    = new DateTime($created_at);
                     $tanggal    = $tgl_obj->format('d-m-Y');
