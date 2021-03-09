@@ -11,7 +11,7 @@
         "source": "https://github.com/bcit-ci/CodeIgniter"
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.2",
         "components/jquery": "^3.5",
         "twbs/bootstrap": "4.6.0",
         "select2/select2": "^4.0",

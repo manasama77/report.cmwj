@@ -179,7 +179,7 @@ class ExportController extends CI_Controller
             $code = 200;
             if ($exec1->num_rows() > 0) {
                 foreach ($exec1->result() as $key) {
-                    $value_data = $key->WT2_VALUE_pH_302;
+                    $value_data = $key->WT2_VALUE_pH_302_REAL;
                     $hh_data    = $key->WT2_VALUE_pH_302_HH_LEVEL_REAL;
                     $high_data  = $key->WT2_VALUE_pH_302_H_LEVEL_REAL;
                     $low_data   = $key->WT2_VALUE_pH_302_L_LEVEL_REAL;
@@ -207,7 +207,7 @@ class ExportController extends CI_Controller
 
             if ($exec2->num_rows() > 0) {
                 foreach ($exec2->result() as $key) {
-                    $value_data = $key->WT2_VALUE_pH_307;
+                    $value_data = $key->WT2_VALUE_pH_307_REAL;
                     $hh_data    = $key->WT2_VALUE_pH_307_HH_LEVEL_REAL;
                     $high_data  = $key->WT2_VALUE_pH_307_H_LEVEL_REAL;
                     $low_data   = $key->WT2_VALUE_pH_307_L_LEVEL_REAL;
