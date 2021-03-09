@@ -447,7 +447,7 @@
                 labelWrap: true,
                 labelAngle: 0,
                 maximum: null,
-                valueFormatString: "HH:mm",
+                valueFormatString: "D-M-YY HH:mm",
                 crosshair: {
                     enabled: true,
                     snapToDataPoint: true
@@ -457,6 +457,8 @@
                 suffix: "",
                 lineColor: "rgba(105,105,105,.8)",
                 gridColor: "rgba(105,105,105,.8)",
+                minimum: 4,
+                maximum: 12,
             },
             toolTip: {
                 enabled: true,
@@ -611,7 +613,7 @@
                 labelWrap: true,
                 labelAngle: 0,
                 maximum: null,
-                valueFormatString: "HH:mm",
+                valueFormatString: "D-M-YY HH:mm",
                 crosshair: {
                     enabled: true,
                     snapToDataPoint: true
@@ -847,7 +849,7 @@
                 labelWrap: true,
                 labelAngle: 0,
                 maximum: null,
-                valueFormatString: "HH:mm",
+                valueFormatString: "D-M-YY HH:mm",
                 crosshair: {
                     enabled: true,
                     snapToDataPoint: true
@@ -857,6 +859,8 @@
                 suffix: "",
                 lineColor: "rgba(105,105,105,.8)",
                 gridColor: "rgba(105,105,105,.8)",
+                minimum: 4,
+                maximum: 12,
             },
             toolTip: {
                 enabled: true,
@@ -1011,7 +1015,7 @@
                 labelWrap: true,
                 labelAngle: 0,
                 maximum: null,
-                valueFormatString: "HH:mm",
+                valueFormatString: "D-M-YY HH:mm",
                 crosshair: {
                     enabled: true,
                     snapToDataPoint: true
@@ -1021,6 +1025,8 @@
                 suffix: "",
                 lineColor: "rgba(105,105,105,.8)",
                 gridColor: "rgba(105,105,105,.8)",
+                minimum: 4,
+                maximum: 12,
             },
             toolTip: {
                 enabled: true,
