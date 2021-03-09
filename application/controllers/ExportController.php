@@ -25,11 +25,12 @@ class ExportController extends CI_Controller
     public function show_alarm()
     {
         $id_area    = $this->input->post('id_area');
-        $from_date  = $this->input->post('from_date');
-        $to_date    = $this->input->post('to_date');
+        $from_date  = new DateTime($this->input->post('from_date'));
+        $to_date    = new DateTime($this->input->post('to_date'));
         $data       = [];
 
-        $arr = $this->M_alarm->get($id_area, $from_date, $to_date);
+        $arr = $this->M_alarm->get($id_area, $from_date->format('Y-m-d H:i:s'), $to_date->format('Y-m-d H:i:s'));
+
 
         $no = 1;
         foreach ($arr->result() as $key) {
@@ -61,7 +62,7 @@ class ExportController extends CI_Controller
             $nested['start_time'] = $start_time_val;
             $nested['stop_date']  = $stop_date_val;
             $nested['stop_time']  = $stop_time_val;
-            $nested['durasi']     = round($key->durasi / 60);
+            $nested['durasi']     = round($key->durasi / 60, 2);
 
             $no++;
             array_push($data, $nested);
@@ -393,11 +394,9 @@ class ExportController extends CI_Controller
         } else {
 
             $from_obj = new DateTime($from_date);
-            $from_obj->createFromFormat('Y-m-d H:i', $from_date);
             $from_human = $from_obj->format('d-M-Y H:i');
 
             $to_obj = new DateTime($to_date);
-            $to_obj->createFromFormat('Y-m-d H:i', $to_date);
             $to_human = $to_obj->format('d-M-Y  H:i');
 
             $mpdf = new \Mpdf\Mpdf([

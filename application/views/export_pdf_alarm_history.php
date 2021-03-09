@@ -64,7 +64,7 @@ if ($from_human == $to_human) {
                     <td class="text-center"><?= $key->Al_Message; ?></td>
                     <td class="text-center"><?= $start_date; ?> <?= $start_time; ?></td>
                     <td class="text-center"><?= $stop_date; ?> <?= $stop_time; ?></td>
-                    <td class="text-center"><?= round($key->durasi / 60); ?> Minute</td>
+                    <td class="text-center"><?= round($key->durasi / 60, 2); ?> Minute</td>
                 </tr>
             <?php
                 $no++;

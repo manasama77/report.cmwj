@@ -1,24 +1,24 @@
 {
-    "description": "The CodeIgniter framework",
-    "name": "codeigniter/framework",
-    "type": "project",
-    "homepage": "https://codeigniter.com",
-    "license": "MIT",
-    "support": {
-        "forum": "http://forum.codeigniter.com/",
-        "wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
-        "slack": "https://codeigniterchat.slack.com",
-        "source": "https://github.com/bcit-ci/CodeIgniter"
-    },
-    "require": {
-        "php": ">=7.3",
-        "components/jquery": "^3.5",
-        "twbs/bootstrap": "4.6.0",
-        "select2/select2": "^4.0",
-        "moment/moment": "^2.29",
-        "components/jqueryui": "^1.12",
-        "components/font-awesome": "^5.15",
-        "mpdf/mpdf": "^8.0"
-    },
-    "suggest": {}
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
+		"slack": "https://codeigniterchat.slack.com",
+		"source": "https://github.com/bcit-ci/CodeIgniter"
+	},
+	"require": {
+		"php": ">=7.2",
+		"components/jquery": "^3.5",
+		"twbs/bootstrap": "4.6.0",
+		"select2/select2": "^4.0",
+		"moment/moment": "^2.29",
+		"components/jqueryui": "^1.12",
+		"components/font-awesome": "^5.15",
+		"mpdf/mpdf": "^8.0"
+	},
+	"suggest": {}
 }
