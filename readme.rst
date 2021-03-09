@@ -7,10 +7,17 @@ Start Project -
 End Project Phase 1 - 2021-02-19
 
 *******************
+Repair Bugs Logs
+*******************
+- 2021-03-09
+	- Repair Bug tanggal pada alarmhistory, sesudah menampilkan table alarmhistory tanggal sebelum di export tidak sama dengan form filter
+	- Repair Bug penghitungan durasi, kini, durasi menampilkan 2 digit decimal
+
+*******************
 Server Requirements
 *******************
 
-- PHP version 7.3 or newer is recommended
+- PHP version 7.2 or newer is recommended
 - MySql or MariaDB
 - Apache / NGINX Server
 - Composer

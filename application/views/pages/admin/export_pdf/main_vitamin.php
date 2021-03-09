@@ -158,18 +158,18 @@
                 let datetimeFrom = new Date($('#from_date').val());
                 let datetimeTo = new Date($('#to_date').val());
 
-                fromDay = datetimeFrom.getUTCDate();
+                fromDay = datetimeFrom.getDate();
                 fromMonth = monthNamesShort[datetimeFrom.getMonth()];
-                fromYear = datetimeFrom.getUTCFullYear();
-                fromHour = datetimeFrom.getUTCHours();
-                fromMinute = datetimeFrom.getUTCMinutes();
+                fromYear = datetimeFrom.getFullYear();
+                fromHour = datetimeFrom.getHours();
+                fromMinute = datetimeFrom.getMinutes();
                 fromDate = fromDay + "-" + fromMonth + "-" + fromYear + " " + fromHour + ":" + fromMinute;
 
-                toDay = datetimeTo.getUTCDate();
+                toDay = datetimeTo.getDate();
                 toMonth = monthNamesShort[datetimeTo.getMonth()];
-                toYear = datetimeTo.getUTCFullYear();
-                toHour = datetimeTo.getUTCHours();
-                toMinute = datetimeTo.getUTCMinutes();
+                toYear = datetimeTo.getFullYear();
+                toHour = datetimeTo.getHours();
+                toMinute = datetimeTo.getMinutes();
                 toDate = toDay + "-" + toMonth + "-" + toYear + " " + toHour + ":" + toMinute;
 
                 $('#current_datetime').html(fromDate + " - " + toDate);
